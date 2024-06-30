@@ -11,7 +11,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
       config = ./config;
       neovim = pkgs.writeShellScriptBin "nvim" ''
-        export XDG_DATA_HOME="./state"
+        export XDG_DATA_HOME="/temp/pyvim"
 
         ${pkgs.neovim}/bin/nvim -u ${config}/init.lua $@ 
       '';
