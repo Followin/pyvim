@@ -1,0 +1,23 @@
+{
+    "workspace.library": [
+        "/home/main/.local/share/nvim/lazy/neodev.nvim/types/stable",
+        "/nix/store/i9pwb2zpdz1r5dfv8ldfckzj129zwf32-neovim-unwrapped-0.9.1/share/nvim/runtime/lua",
+        "/home/main/.local/share/nvim/lazy/cmp_luasnip/lua",
+        "/home/main/.local/share/nvim/lazy/telescope.nvim/lua",
+        "/home/main/.local/share/nvim/lazy/nvim-treesitter/lua",
+        "/home/main/.local/share/nvim/lazy/onedark.nvim/lua",
+        "/home/main/.local/share/nvim/lazy/cmp-nvim-lsp/lua",
+        "/home/main/.local/share/nvim/lazy/plenary.nvim/lua",
+        "/home/main/.local/share/nvim/lazy/telescope-fzf-native.nvim/lua",
+        "/home/main/.local/share/nvim/lazy/lualine.nvim/lua",
+        "/home/main/.local/share/nvim/lazy/which-key.nvim/lua",
+        "/home/main/.local/share/nvim/lazy/nvim-cmp/lua",
+        "/home/main/.local/share/nvim/lazy/lazy.nvim/lua",
+        "/home/main/.local/share/nvim/lazy/neodev.nvim/lua",
+        "/home/main/.local/share/nvim/lazy/LuaSnip/lua",
+        "/home/main/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua",
+        "/home/main/.local/share/nvim/lazy/nvim-lspconfig/lua",
+        "/home/main/.config/nvim/lua",
+        "${3rd}/luv/library"
+    ]
+}
