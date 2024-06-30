@@ -14,6 +14,8 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+vim.o.termguicolors = true
+
 require("config")
 require("lazy").setup("plugins")
 
@@ -38,7 +40,6 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 vim.o.updatetime = 250
 vim.o.timeoutlen = 300
-vim.o.termguicolors = true
 vim.o.completeopt = 'menuone'
 vim.o.scrolloff = 5
 vim.o.guifont = "JetBrainsMono Nerd Font:h8"
